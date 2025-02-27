@@ -15,6 +15,7 @@ public class Employee {
     private String cpf;
     private String email;
     private Double salary;
+    @Column(name = "birth_date")
     private LocalDate birthDate;
 
     public Employee() {
